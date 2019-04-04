@@ -1,0 +1,20 @@
+.topBar {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: white;
+    background: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: fixed;
+    z-index: 99;
+    top: 0px;
+    margin-left: 0px;
+    width: 100%;
+
+}
+
+.topBar #homeLink {
+    color: white;
+}
