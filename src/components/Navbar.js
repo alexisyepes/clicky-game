@@ -7,7 +7,7 @@ function Navbar(props) {
         <div className="topBar">
             <div className="row">
                 <div className="col-md-2">
-                    <Link to="/" className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}>
+                    <Link to="/" className={window.location.pathname === "/clicky-game" ? "nav-link active" : "nav-link"}>
                         Reset
                     </Link>
                 </div>
