@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router } from "react-router-dom";
 import Background from './components/Background';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
@@ -75,12 +74,10 @@ class App extends Component {
     return (
       <div className="App">
         <Background />
-        <Router>
         <Navbar
           score={this.state.score}
           highScore={this.state.highScore}
         />
-        </Router>
         <Header />
         <div className="container cardBox">
           <div className="row">
