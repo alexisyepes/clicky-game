@@ -18,7 +18,6 @@ class App extends Component {
     clickedImages: []
   }
 
-
   gameOver = () => {
     if (this.state.score > this.state.highScore) {
       this.setState({ highScore: this.state.score }, function () {
@@ -29,14 +28,15 @@ class App extends Component {
       incredible.count = 0;
     });
     if (this.state.score === 12) {
-      alert("Good Job! You win The Game :)");
+      alert("Awesome Job! You won The Game :)");
       this.setState({ score: 0 });
       return true;
     } else {
-      alert(`Game Over :( \nscore: ${this.state.score} \nTry again`);
+      alert(`Game Over :( \nscore: ${this.state.score}\nYou clicked an image already clicked \nTry again`);
       this.setState({ score: 0 });
       return true;
     }
+
   }
 
   clickCount = id => {
@@ -77,6 +77,7 @@ class App extends Component {
         <Navbar
           score={this.state.score}
           highScore={this.state.highScore}
+          onClick={this.refreshPage}
         />
         <Header />
         <div className="container cardBox">

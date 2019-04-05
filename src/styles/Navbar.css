@@ -18,3 +18,7 @@
 .topBar #homeLink {
     color: white;
 }
+
+.navBarLeftText {
+    margin-left: 180px;
+}
