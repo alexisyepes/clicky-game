@@ -6,7 +6,7 @@ function Navbar(props) {
         <div className="topBar">
             <div className="row">
                 <div className="col-md-2">
-                    <a id="homeLink" href="/">Reset</a>
+                    <a id="homeLink" href="clicky-game">Reset</a>
                 </div>
                 <div className="col-md-5">
                     <h2>Click an Image to begin!</h2>
