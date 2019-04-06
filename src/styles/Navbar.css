@@ -18,3 +18,10 @@
 .topBar #homeLink {
     color: white;
 }
+
+@media only screen and (max-width: 360px) {
+    .navText, #homeLink {
+        font-size: 10px;
+    }
+
+}

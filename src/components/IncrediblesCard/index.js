@@ -5,7 +5,7 @@ function IncrediblesCard(props) {
   return (
     <div className="card" onClick={() => props.clickCount(props.id)}>
       <div className="img-container">
-        <img alt="" src={props.urlImage}/>
+        <img className="images" alt="" src={props.urlImage}/>
       </div>
     </div>
   );

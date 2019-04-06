@@ -10,3 +10,23 @@
     height: 155px;
     margin: 15px 45px;
 }  
+
+@media only screen and (max-width: 360px) {
+  .img-container {
+    width: 95px;
+    height: 95px;
+  }
+  .card {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+    table-layout: fixed;
+    }  
+  .images {
+    width: 90px;
+    height: 90px;
+    table-layout: fixed;
+  }
+  
+}

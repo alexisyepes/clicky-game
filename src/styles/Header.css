@@ -3,7 +3,7 @@ header {
     margin-bottom: 30px;
 }
 
-h1{
+.title{
     color: rgb(5, 0, 0);
     text-shadow: -1px 0 rgb(253, 3, 3), 0 2px rgb(255, 2, 2), 2px 0 rgb(253, 5, 5), 0 -1px rgb(248, 8, 8);
     text-align: center;
@@ -21,4 +21,16 @@ h1{
     text-align: center;
     padding-bottom: 70px;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 360px) {
+    .title{
+        font-size: 45px;
+        margin-top: 250px;    
+    }
+    .instructions {
+        font-size: 25px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
 }
