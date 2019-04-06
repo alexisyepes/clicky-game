@@ -57,6 +57,7 @@ class App extends Component {
       }
     });
   }
+
   render() {
     const incrediblesUrl = this.state.incredibles.map(incredible => {
       return (
@@ -77,7 +78,6 @@ class App extends Component {
         <Navbar
           score={this.state.score}
           highScore={this.state.highScore}
-          onClick={this.refreshPage}
         />
         <Header />
         <div className="container cardBox">
