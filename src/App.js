@@ -60,8 +60,8 @@ class App extends Component {
   render() {
     const incrediblesUrl = this.state.incredibles.map(incredible => {
       return (
+        
         <div className="col-md-3">
-
           <IncrediblesCard
             urlImage={incredible.image}
             clickCount={this.clickCount}
